@@ -1,4 +1,4 @@
-public class Cycle {	
+  public class Cycle {	
     public static void main(String[] args) {
         // Печать цифр от 1 до 20 c for         
         for (int i = 0; i <= 20; i++) {
