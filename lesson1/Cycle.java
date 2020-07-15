@@ -7,20 +7,22 @@ public class Cycle {
         System.out.println(" ");
 
         //  Печать цифр от 6 до -6 с while
-        int stepIterac = 6;
-        while (stepIterac >= -6) {
-            System.out.println("ordinary step  " + stepIterac);
-            stepIterac -= 2;     }
+        int step = 6;
+        while (step >= -6) {
+            System.out.println("ordinary step  " + step);
+            step -= 2;
+        }
 
         // Cумма нечетных чисел от 10 до 20 с do  while
         int j = 10;
-        int result = 0;
+        int sum = 0;
         do { 
             j++;
-            if (j % 2 != 0 )
-                result += j;  
-           } while(j < 20);
+            if (j % 2 != 0 ) {
+                sum += j;  
+            }
+        } while(j < 20);
         System.out.println("        Sublimation        ");
-        System.out.println("SUM = " + result);
+        System.out.println("SUM = " + sum);
     }
 }   

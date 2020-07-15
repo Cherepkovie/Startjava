@@ -1,45 +1,45 @@
 public class Calculator {	
     public static void main(String[] args) {
-        int digit1 = 245;
-        int digit2 = 9;
-        int stepen = 4;
+        int number1 = 25;
+        int number2 = 3;
+//        int stepen = 4;
         int modul = 0;
         long result = 0L;
-        char znakOperac = '/';
+        char sign = '^';
         System.out.println(" ");
-        if (znakOperac =='+') {
-            result = digit1 + digit2;
-            System.out.println("Addition " + digit1 + " and " + digit2 + " = " + result);
+        if (sign == '+') {
+            result = number1 + number2;
+            System.out.println("Addition " + number1 + " and " + number2 + " = " + result);
         }
 
-        if (znakOperac =='-') {
-           result = digit1 - digit2;
-           System.out.println("Subtraction " + digit1 + " and " + digit2 + " = " + result);
+        else if (sign == '-') {
+           result = number1 - number2;
+           System.out.println("Subtraction " + number1 + " and " + number2 + " = " + result);
         }
 
-        if (znakOperac =='/') {
-            result = digit1 / digit2;
-            System.out.println("Division " + digit1 + " and " + digit2 + " = " + result);
+        else if (sign == '/') {
+            result = number1 / number2;
+            System.out.println("Division " + number1 + " and " + number2 + " = " + result);
         }
 
-        if (znakOperac =='*') {
-            result = digit1 * digit2;
-            System.out.println("Multiplication " + digit1 + " and " + digit2 + " = " + result);
+        else if (sign == '*') {
+            result = number1 * number2;
+            System.out.println("Multiplication " + number1 + " and " + number2 + " = " + result);
         }
 
-        if (znakOperac =='^') {
+        else if (sign == '^') {
            int i = 1;
            result = 1;
               do {
                  i ++;
-                 result *= digit1;
-              } while (i <= stepen);
-           System.out.println("Vozvesti " + digit1 + " v stepen " + stepen + " = " + result);
+                 result *= number1;
+              } while (i <= number2);
+           System.out.println("Vozvesti " + number1 + " v stepen " + number2 + " = " + result);
         }
 
-        if (znakOperac =='%') {
-            result = digit1 % digit2;
-            System.out.println("Delenije po modulu  " + digit1 + " and " + digit2 + " = " + result);
+        else if (sign == '%') {
+            result = number1 % number2;
+            System.out.println("Delenije po modulu  " + number1 + " and " + number2 + " = " + result);
         } 
         System.out.println("  ");
     }

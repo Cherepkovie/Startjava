@@ -1,13 +1,13 @@
 public class ConditionalStatement {	
     public static void main(String[] args) {
-        //System.out.println("Hello, world");
         int age = 21;
         System.out.println(" ");
         if (age > 20) {
             System.out.println("Relevant age category");
         }
 
-        char maleGender = 'w';   /* половая принадлежность 'm' или 'w'*/
+        char maleGender = 'm';   /* половая принадлежность 'm' или 'w'*/
+
         if (maleGender != 'm') { 
             System.out.println("We need in man.You are not satisfied our conditions");
         }
