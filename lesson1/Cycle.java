@@ -6,7 +6,7 @@ public class Cycle {
         }
         System.out.println(" ");
 
-        //  Печать цифр от 6 до -6 с while
+        // Печать цифр от 6 до -6 с while
         int step = 6;
         while (step >= -6) {
             System.out.println("ordinary step  " + step);
@@ -18,11 +18,11 @@ public class Cycle {
         int sum = 0;
         do { 
             j++;
-            if (j % 2 != 0 ) {
+            if (j % 2 !=0 ) {
                 sum += j;  
             }
         } while(j < 20);
-        System.out.println("        Sublimation        ");
+        System.out.println("        Addition        ");
         System.out.println("SUM = " + sum);
     }
 }   
