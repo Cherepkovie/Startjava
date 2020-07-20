@@ -19,7 +19,7 @@ public class MyFirstGame {
             if (deltaNum > 0) {
                 playerNum--;
             } else if (deltaNum < 0) {
-                playerNum ++;
+                playerNum++;
             }
             System.out.println("Input number between  " + left + "  and  " + right);
         }
