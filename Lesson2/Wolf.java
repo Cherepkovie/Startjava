@@ -1,34 +1,34 @@
 public class Wolf {
 
-        String gender = "male";
-        String name = "Wolfy";
-        float weight = 25.5F;
-        int age = 5;
-        String colour = "grey";
-        int speed;
-        int highspeed;
+    String gender = "male";
+    String name = "Wolfy";
+    float weight = 25.5F;
+    int age = 5;
+    String colour = "grey";
+    int speed;
+    int highspeed;
 
-        int go() {
+    int go() {
         System.out.println("Moving \n" );
         return speed;
-        }
+    }
 
-        void sit() {
+    void sit() {
         System.out.println("sit");
-        }
+    }
 
-        int run() {
+    int run() {
         System.out.println("High speed moving");
         return highspeed;
-        }
+    }
 
-        boolean howl() {
+    boolean howl() {
         System.out.println("Instill fear");
         return true;
-        }
+    }
 
-        String hunting() {
+    String hunting() {
         System.out.println("maintenance of life");
         return "endurance";
-        }
+    }
 }
