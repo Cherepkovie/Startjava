@@ -1,34 +1,34 @@
 public class Person {
 
-        String gender = "Man";
-        String name = "Igor";
-        float height = 1.81F;
-        float weight = 92,8F;
-        int age = 58;
-        int speed = 5;
-        highspeed = 10;
+    String gender = "Man";
+    String name = "Igor";
+    float height = 1.81F;
+    float weight = 92,8F;
+    int age = 58;
+    int speed = 5;
+    highspeed = 10;
 
-        int go() {
+    int go() {
         System.out.println("Moving");
         return speed;
-        }
+    }
 
-        void sit() {
+    void sit() {
         System.out.println("Rest");
-        }
+    }
 
-        int run() {
+    int run() {
         System.out.println("High speed moving");
         return highspeed;
-        }
+    }
 
-        boolean speak() {
+    boolean speak() {
         System.out.println("Speak English");
         return true;
-        }
+    }
 
-        string learning() {
+    String learnJava() {
         System.out.println("java learning");
         return "online";
-        }
+    }
 }
