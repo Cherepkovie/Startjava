@@ -11,6 +11,7 @@ public class WolfTest {
         wolfOne.setName("Limba");
         wolfOne.setColour("Brown");
         wolfOne.setAge(10);
+
         System.out.println("\ndog " + wolfOne.getGender());
         System.out.println("named  " + wolfOne.getName());
         System.out.println("with durty colour " + wolfOne.getColour());
@@ -19,6 +20,5 @@ public class WolfTest {
         wolfOne.go(); 
         System.out.println(wolfOne.howl() + "\n"); 
         System.out.println(wolfOne.hunting() + "\n\n\n\n\n");
-        
     }
 }
